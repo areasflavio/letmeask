@@ -20,7 +20,7 @@ function Home() {
       await signInWithGoogle();
     }
 
-    await history.push('/rooms/new');
+    history.push('/rooms/new');
   }
 
   return (
